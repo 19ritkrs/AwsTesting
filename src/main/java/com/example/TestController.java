@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@GetMapping("/v1")
 	public String getDetails() {
-		return "Testing Successfully of AWS";
+		return "Testing Successfully of AWS,Ritesh";
 	}
 
 }
